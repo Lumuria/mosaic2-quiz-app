@@ -1,0 +1,21 @@
+[2026-01-31T18:19:47.292Z] Starting dev server with command: pnpm run dev
+[2026-01-31T18:19:48.029Z] 
+[2026-01-31T18:19:48.030Z] > mosaic2-quiz-app@1.0.0 dev /home/ubuntu/mosaic2-quiz-app
+[2026-01-31T18:19:48.030Z] > vite --host
+[2026-01-31T18:19:48.030Z] 
+[2026-01-31T18:19:48.643Z] 
+[2026-01-31T18:19:48.644Z] VITE v7.1.9  ready in 570 ms
+[2026-01-31T18:19:48.644Z] 
+[2026-01-31T18:19:48.645Z] ➜  Local:   http://localhost:3000/
+[2026-01-31T18:19:48.645Z] ➜  Network: http://169.254.0.21:3000/
+[2026-01-31T18:21:38.479Z] 1:21:38 PM [vite] (client) page reload index.html
+[2026-01-31T18:21:47.017Z] 1:21:47 PM [vite] (client) page reload index.html
+[2026-01-31T18:22:14.972Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-01-31T19:00:19.866Z] 2:00:19 PM [vite] vite.config.ts changed, restarting server...
+[2026-01-31T19:00:19.932Z] 2:00:19 PM [vite] server restarted.
+[2026-01-31T19:00:53.944Z] 2:00:53 PM [vite] vite.config.ts changed, restarting server...
+[2026-01-31T19:00:53.945Z] 2:00:53 PM [vite] (client) page reload index.html
+[2026-01-31T19:00:53.959Z] 2:00:53 PM [vite] server restarted.
+[2026-01-31T19:00:53.959Z] 
+[2026-01-31T19:00:53.960Z] ➜  Local:   http://localhost:5173/
+[2026-01-31T19:00:53.962Z] ➜  Network: http://169.254.0.21:5173/
