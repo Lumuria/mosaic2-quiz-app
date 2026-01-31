@@ -1,6 +1,17 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Arabic Fonts */
+@font-face {
+  font-family: 'Tajawal';
+  src: url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -78,6 +89,10 @@
   --sidebar-ring: oklch(0.623 0.214 259.815);
 }
 
+html {
+  font-family: 'Tajawal', 'Merriweather', sans-serif;
+}
+
 .dark {
   --primary: var(--color-blue-700);
   --primary-foreground: var(--color-blue-50);
@@ -119,6 +134,14 @@
   }
   body {
     @apply bg-background text-foreground;
+    direction: rtl;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+  }
+  p, span, li, a {
+    font-family: 'Tajawal', sans-serif;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
